@@ -26,7 +26,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint', 'import'],
   rules: {
-    camelcase: 'off',
+    "camelcase": 'off',
     "jsx-a11y/anchor-is-valid":"off",
     'jsx-a11y/href-no-hash': ['off'],
     'react/jsx-filename-extension': ['warn', { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
@@ -44,7 +44,7 @@ module.exports = {
         ignoreRegExpLiterals: true,
       },
     ],
-    'no-unused-vars': 'off',
+    'no-unused-vars': 'error',
     '@typescript-eslint/no-unused-vars': 'warn',
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
