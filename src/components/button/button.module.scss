@@ -1,0 +1,18 @@
+.button {
+  border: #fafafa solid 1px;
+  border-radius: 1rem;
+  padding: 16px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 1px 2px #fff;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
