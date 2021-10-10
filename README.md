@@ -20,4 +20,5 @@ yarn dev
 
 
 
-[![wakatime](https://wakatime.com/badge/github/Next-100x-TS/Next-100x-TS.svg)](https://wakatime.com/badge/github/ruloCode/Next-100x-TS)
+
+[![wakatime](https://wakatime.com/badge/user/438a330e-6b52-4b08-9417-cdd9fc37a05a/project/92499e6f-ac7a-4756-9607-e5cf67e4f78e.svg)](https://wakatime.com/badge/user/438a330e-6b52-4b08-9417-cdd9fc37a05a/project/92499e6f-ac7a-4756-9607-e5cf67e4f78e)
