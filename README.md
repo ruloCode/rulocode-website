@@ -14,7 +14,7 @@ yarn dev
 ```
 
 
-## Deploying
+## Deploy
 
 [![Deploy with Vercel](https://vercel.com/button)](https://next-100x-ts.vercel.app/)
 
