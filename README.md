@@ -14,5 +14,10 @@ yarn dev
 ```
 
 
+## Deploying
+
+[![Deploy with Vercel](https://vercel.com/button)](https://next-100x-ts.vercel.app/)
 
 
+
+[![wakatime](https://wakatime.com/badge/github/ruloCode/rulocode.com.svg)](https://wakatime.com/badge/github/ruloCode/Next-100x-TS)
