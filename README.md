@@ -20,4 +20,4 @@ yarn dev
 
 
 
-[![wakatime](https://wakatime.com/badge/github/ruloCode/rulocode.com.svg)](https://wakatime.com/badge/github/ruloCode/Next-100x-TS)
+[![wakatime](https://wakatime.com/badge/github/Next-100x-TS/Next-100x-TS.svg)](https://wakatime.com/badge/github/ruloCode/Next-100x-TS)
