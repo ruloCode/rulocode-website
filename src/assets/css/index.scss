@@ -17,9 +17,10 @@
 
 body {
   display: flex;
-  align-items: center;
   justify-content: center;
   height: 100vh;
+  font-family: var(--font-primary);
+  background: #f9fafb;
   scroll-behavior: smooth;
 
   a {
