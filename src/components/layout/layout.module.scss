@@ -1,0 +1,68 @@
+.grid {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+}
+
+.grid::before {
+  content: '';
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+  padding-bottom: 100%;
+  width: 0;
+}
+
+.grid > *:first-child {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+}
+
+/* Just to make the grid visible */
+
+// .grid > * {
+//   background: rgba(0, 0, 0, 0.1);
+// }
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background-color: transparent;
+
+  span {
+    display: inline-flex;
+    font-size: 24px;
+    color: var(--brand-green);
+  }
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 72px 0 72px 72px;
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 900px;
+
+  /* amarillito */
+
+  box-shadow: 20px 20px 80px rgba(226, 192, 0, 0.15);
+  background: #fff;
+}
+
+.masterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* amarillito */
+}

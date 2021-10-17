@@ -1,7 +1,8 @@
 import React from 'react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import {Header} from '../components/Header/Header'
+// import {Header} from '../components/Header/Header'
+import {Layout} from '../components/layout/Layout'
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +14,7 @@ const Home: NextPage = () => {
           content="Build a PWA with Next.js to achieve 100 lighthouse score."
         />
       </Head>
-      <Header />
+      <Layout /> 
     </>
   );
 };
